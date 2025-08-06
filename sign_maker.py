@@ -2,7 +2,7 @@
 import datetime
 
 # Create the content for our sign
-html_content = f"""
+html_content = f
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +35,7 @@ html_content = f"""
     </style>
 </head>
 <body>
-    <h1>Fresh Lemonade!</h1>
+    <h1>Hi Fresh Lemonade!</h1>
     <p>Best lemonade in town!</p>
     <p>Come get yours today!</p>
     <div class="update-time">
@@ -43,7 +43,7 @@ html_content = f"""
     </div>
 </body>
 </html>
-"""
+
 
 # Save the sign content into a file named index.html
 with open('index.html', 'w') as f:
