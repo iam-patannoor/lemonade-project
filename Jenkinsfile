@@ -14,7 +14,7 @@ pipeline {
                 echo 'Putting the new sign on the lemonade stand...'
                 // This command copies the 'index.html' file to the special place where Nginx looks.
                 // We use 'sudo' here because this is a special public place on the server.
-                sh 'sudo cp index.html /var/www/html/index.html'
+                sh 'cp index.html /var/www/html/index.html'
             }
         }
     }
